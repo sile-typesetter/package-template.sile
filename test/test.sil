@@ -1,0 +1,10 @@
+\document{
+\use[module=packages.template]
+
+\template-command
+
+\template-command[fontsize=30pt]{Content processed...}
+
+\template-command[fontsize=10pt]
+
+}
