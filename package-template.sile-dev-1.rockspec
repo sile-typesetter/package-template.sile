@@ -19,7 +19,8 @@ build = {
   type = "builtin",
 
   modules = {
-    ["sile.packages.template"] = "packages/template/init.lua"
+    ["sile.packages.template"] = "packages/template/init.lua",
+    ["sile.classes.sample"] = "classes/sample.lua",
   },
 
   -- for documentation and config files

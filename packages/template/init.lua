@@ -4,12 +4,12 @@ local package = pl.class(base)
 package._name = "template"
 
 function package:_init()
-	base._init(self)
+  base._init(self)
 end
 
 function package:registerCommands()
-	self:registerCommand("template-command", function(options, content)
-	end)
+  self:registerCommand("package-command", function(_, _)
+  end)
 end
 
 package.documentation = [[
